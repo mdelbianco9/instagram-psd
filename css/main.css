@@ -1,0 +1,66 @@
+
+/*Navbar*/
+
+nav {
+	position: fixed;
+	top:0px;
+	width: 100%;
+	height: 77px;
+	white-space: nowrap;
+	background-color: rgb(255, 255, 255);
+	padding: 0% 10%;
+	border: 1px solid purple;
+}
+
+/*Three sections of the nav bar*/
+.nav-section {
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	width: 33.3333%;
+	height: 100%;
+	text-align: center;
+	padding: 20px;
+	/*border: 1px solid black;*/
+}
+
+/*Positions and styles the Search Bar */
+.nav-section input {
+	position: absolute;
+	top: 35%;
+	left:17% ;
+	width: 215px;
+	height: 28px;
+	padding: 7px;
+	text-align: center;
+	border-radius: 3px;
+	background: #fafafa;
+	border: solid 1px #dbdbdb;
+	font-size: 14px;
+    font-weight: 300;
+    color: #999;
+}
+
+/*Positions the Search Glass*/
+.nav-section span {
+	position: absolute;
+	top: 39%;
+	z-index: 2;
+	left: 38%;
+}
+
+/*Styles the Search Glass*/
+.fa-search {
+	color: #999;
+	font-size: 11px;
+}
+
+
+
+
+
+/*Main section*/
+
+main {
+	background-color: rgb(250, 250, 250);
+}
