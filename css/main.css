@@ -80,7 +80,34 @@ nav div:nth-child(1) i, h1:hover {
 	cursor: pointer;
 }
 
+/*Styling for the right side of navbar*/
 
+.fa-compass {
+	position: absolute;
+	top: 30px;
+	right: 130px;
+	font-size: 25px;
+}
+
+.fa-heart {
+	position: absolute;
+	top: 30px;
+	right: 80px;
+	font-size: 25px;
+}
+
+.fa-user {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 25px;
+}
+
+nav div:nth-child(3) i:hover {
+	cursor: pointer;
+}
+
+/*end of right side of nav bar*/
 
 
 /*Main section*/
