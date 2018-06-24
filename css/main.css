@@ -9,7 +9,7 @@ nav {
 	white-space: nowrap;
 	background-color: rgb(255, 255, 255);
 	padding: 0% 10%;
-	border: 1px solid purple;
+	border-bottom: 1px solid rgba(0,0,0,.0975);
 }
 
 /*Three sections of the nav bar*/
@@ -42,7 +42,7 @@ nav {
 }
 
 /*Positions the Search Glass*/
-.nav-section span {
+nav div:nth-child(2) span {
 	position: absolute;
 	top: 39%;
 	z-index: 2;
@@ -55,6 +55,30 @@ nav {
 	font-size: 11px;
 }
 
+/*Styles the Instagram icon*/
+nav div:nth-child(1) i {
+	position: absolute;
+	left: 0px;
+	font-size: 35px;
+}
+
+/*Styles and positions the Instagram cursive writing*/
+nav div:nth-child(1) h1 {
+	position: absolute;
+	left: 40px;
+	margin: 0px;
+	margin-left: 5px;
+	padding-left: 15px;
+	border-left: 1px solid rgb(38, 38, 38);
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Pacifico', cursive;
+	color: rgb(38, 38, 38);
+}
+
+nav div:nth-child(1) i, h1:hover {
+	cursor: pointer;
+}
 
 
 
