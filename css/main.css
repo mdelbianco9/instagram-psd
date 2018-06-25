@@ -1,6 +1,10 @@
 
-/*Navbar*/
+body {
+	background-color: rgb(250, 250, 250);
+}
 
+
+/*Navbar*/
 nav {
 	position: fixed;
 	top:0px;
@@ -81,7 +85,6 @@ nav div:nth-child(1) i, h1:hover {
 }
 
 /*Styling for the right side of navbar*/
-
 .fa-compass {
 	position: absolute;
 	top: 30px;
@@ -106,12 +109,44 @@ nav div:nth-child(1) i, h1:hover {
 nav div:nth-child(3) i:hover {
 	cursor: pointer;
 }
-
 /*end of right side of nav bar*/
 
 
-/*Main section*/
+/****** Section1 ******/
 
-main {
+#user-profile {
+	position: relative;
+	top: 77px;
+	height: 152px;
+	width: 75%;
+	margin: auto;
+	margin-top: 60px;
 	background-color: rgb(250, 250, 250);
+	/*border: 1px solid blue;*/
 }
+
+.user-pic {
+	height: 152px;
+	width: 152px;
+	border-radius: 50%;
+	border: 1px solid rgba(153,153,153,.5);
+	margin-left: 5%;
+}
+
+/*End Section1*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
