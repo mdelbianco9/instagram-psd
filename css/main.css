@@ -114,6 +114,7 @@ nav div:nth-child(3) i:hover {
 
 /****** Section1 ******/
 
+/* 1st <section> element*/
 #user-profile {
 	position: relative;
 	top: 77px;
@@ -125,13 +126,62 @@ nav div:nth-child(3) i:hover {
 	/*border: 1px solid blue;*/
 }
 
+/*User Picture*/
 .user-pic {
 	height: 152px;
 	width: 152px;
+	position: absolute;
+	left: 0px;
 	border-radius: 50%;
 	border: 1px solid rgba(153,153,153,.5);
 	margin-left: 5%;
 }
+
+/*User Info*/
+.user-info {
+	display: inline-block;
+	position: absolute;
+	right: 15%;
+	height: 100%;
+	width: 50%;
+	margin: none;
+	/*border: 1px solid red;*/
+}
+
+/*User Name*/
+#user-profile .user-info .row-1 h1 {
+	display: inline-block;
+	margin: 0px;
+	font-weight: 300;
+	font-size: 35px;
+	margin-right: 5%;
+}
+
+/*Edit Settings*/
+#user-profile .user-info .row-1 button {
+	margin: none;
+	padding: 0px 24px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid #dbdbdb;
+	color: #262626;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 500;
+	position: relative;
+	top: -5px;
+}
+
+/*Settings Favicon*/
+#user-profile .user-info .row-1 a .fa-cog {
+	color: #262626;
+	margin-left: 3%;
+}
+
+
+
+
+
 
 /*End Section1*/
 
